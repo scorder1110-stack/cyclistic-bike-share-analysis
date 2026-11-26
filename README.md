@@ -60,12 +60,14 @@ The data was reviewed and cleaned before beginning the analysis. The main steps 
 - Checked for and removed 35 duplicate ride records.
 - Converted the ride start and end timestamps into datetime format.
 - Calculated ride duration in minutes using the start and end times.
-- Removed trips with durations greater than 24 hours.
+- Identified 29 negative ride durations, all occurring on November 2, 2025, when daylight saving time ended. Corrected these durations by adding 60 minutes to account for the clock change.
+- Removed 5,334 trips with durations greater than 24 hours, representing approximately 0.09% of the cleaned records.
+- Limited the analysis to rides starting between August 1, 2025, and July 31, 2026. This excluded 99 rides that started on July 31, 2025, but were included in the August data file.
 - Created additional columns for month, day of the week, hour, and weekday or weekend classification.
 - Grouped ride durations into categories to compare riding patterns between casual riders and members.
 - Reviewed missing station information and retained the available trip records for analysis.
 
-After cleaning, the final dataset contained approximately 6 million rides (6,032,500 records).
+After cleaning and filtering, the final analysis dataset contained 6,032,500 rides.
 
 Python, pandas, Matplotlib, and Seaborn were used throughout the cleaning and analysis process.
 
