@@ -150,6 +150,10 @@ Some stations had a high number of casual rides along with weekday and peak-hour
 
 ![Top Conversion Opportunity Stations](images/top_conversion_stations.svg)
 
+![Routine-Like Casual Riders: Weekday Usage at Top Conversion Stations](images/conversion_candidates_weekday.svg)
+
+![Routine-Like Casual Riders: Peak-Hour Usage at Top Conversion Stations](images/conversion_candidates_peak_hours.svg)
+
 ### Comparing Casual and Member Weekday Usage
 
 I then compared casual and member weekday activity at these locations.
