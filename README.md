@@ -89,6 +89,7 @@ Casual riders generally take longer trips than members.
 - Annual members average approximately 12.0 minutes per ride.
 
 This suggests that the two groups may be using the bikes for different purposes.
+
 ![Ride Duration Distribution](images/ride_duration_distribution.png)
 
 ### Average Ride Duration by Day
