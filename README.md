@@ -150,7 +150,16 @@ Some stations had a high number of casual rides along with weekday and peak-hour
 
 ![Top Conversion Opportunity Stations](images/top_conversion_stations.svg)
 
+### Comparing Weekday Usage
+
+After identifying these stations, I looked more closely at when casual riders were using them. The weekday comparison helps show whether casual usage at these locations follows a pattern more similar to annual members, who generally have a higher share of weekday rides.
+
 ![Routine-Like Casual Riders: Weekday Usage at Top Conversion Stations](images/conversion_candidates_weekday.svg)
+
+### Comparing Peak-Hour Usage
+
+I also compared casual rides during selected morning and afternoon peak hours (7–9 AM and 4–6 PM). This provides another way to examine whether casual riders at these stations are using the bikes during times commonly associated with commuting.
+
 
 ![Routine-Like Casual Riders: Peak-Hour Usage at Top Conversion Stations](images/conversion_candidates_peak_hours.svg)
 
